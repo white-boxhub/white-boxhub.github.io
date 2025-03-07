@@ -1,0 +1,251 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Send files</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<style type="text/css">
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+body {
+margin: 0; 
+padding: 0; 
+min-width: 100%!important;
+background-color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+font-family: "Karla", serif;
+font-optical-sizing: auto;
+font-style: normal;
+font-weight: 400;
+text-rendering: optimizeLegibility;
+-moz-osx-font-smoothing: grayscale;
+-webkit-font-smoothing: antialiased; 
+}
+
+.content {
+width: 100%; 
+max-width: 600px;
+} 
+
+table {
+border-collapse: collapse;
+}
+
+a {
+color:#111;
+text-decoration: none;  
+}
+.primarybutton {
+width: 203.42px;
+margin-top: 20px;
+padding: 20px 58px;
+text-align: center;
+text-transform: uppercase;
+transition: opacity 3s ease;
+background-color: #111;
+border-width: 0px;
+color: #fff;
+cursor: pointer;
+font-size: 12px;
+letter-spacing: 1px;
+font-weight: 600;
+font-family: "Karla", serif;
+}
+.primarybutton:hover {
+opacity: 0.6;
+transition: opacity 3s ease;
+}
+.primarybutton a {
+text-align: center;
+color: #fff;
+text-decoration: none;
+letter-spacing: 1px;
+font-size: 12px;
+font-weight: 600;
+}
+
+#fpg-picker{
+    height: 400px;
+    font-family: "Karla", serif;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+.fsp-modal__sidebar {
+    background-color: #eee; background: #eee;
+}
+.fsp-modal__body {
+     background-color: #eee; background: #eee;
+}
+.fsp-header {
+    background-color: #eee; background: #eee;
+}
+.fsp-drop-area {
+    background-color: #eee; background: #eee;
+}
+.fsp-source-list__item--active {
+    background-color: #eee; background: #eee;
+}
+
+.label-note{
+width: 18px;
+height: 18px;
+border-radius: 50%;
+background-color: #ffffff;
+color: #999;
+font-weight: 600;
+text-align: center;
+border: 2px solid #999;
+display: inline-block;
+vertical-align: middle;
+}
+
+/* width */
+::-webkit-scrollbar {
+width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+background: #f9f8fa;
+box-shadow: inset 0 0 4px rgba(0, 0, 0, .3);
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+background: rgba(0, 0, 0, 0.2);
+border-top-right-radius: 12px;
+border-top-left-radius: 12px;
+border-bottom-right-radius: 12px;
+border-bottom-left-radius: 12px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+background: rgba(0, 0, 0, 0.2); 
+}
+
+.parent {
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: repeat(3, 0.5fr);
+grid-column-gap: 10px;
+grid-row-gap: 10px;
+font-size: 14px; 
+color: #999;
+font-family: "Karla", serif;
+}
+
+.div1 { grid-area: 1 / 1 / 2 / 3; }
+.div2 { grid-area: 2 / 1 / 3 / 2; }
+.div3 { grid-area: 2 / 2 / 3 / 3; }
+
+input {
+    width: 87%;
+    height: 40px;
+    border: 1px solid #f9f8fa;
+    background-color: #fff;
+    font-family: "Karla", serif;
+    text-indent: 4px;
+    color: #111;
+    font-size: 100%;
+}
+
+input:focus-visible {
+    outline: none;
+}
+</style>
+</head>
+<body style="font-family: 'Karla', serif;">
+<table width="100%" bgcolor="#ffffff" cellpadding="0" cellspacing="0">
+<tr>
+<td>
+<table class="content" width="100%"  align="center" cellpadding="0" cellspacing="0" style="border: 1px solid #eee; border-top: 0; max-width: 600px;">
+<tr>
+<td class="header" align="center" style="padding-top: 30px;">
+    <a href="https://whitebox.42web.io/" alt="White Box">
+        <svg style="margin-top: -65px; max-height: 150px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:serif="http://www.serif.com/" width="100%" height="100%" viewBox="0 0 2481 3508" version="1.1" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+            <g>
+                <path d="M571.646,1334.31l63.862,-0l288.058,881.837l288.057,-876.761l59.786,-0l289.417,876.761l286.699,-881.837l61.144,-0l-320.668,949.776l-58.427,-0l-288.058,-869.609l-289.416,869.609l-59.786,-0l-320.668,-949.776Z" style="fill:#231f20;"/>
+                <path d="M1215.19,1448.19c-0,-71.099 -15.221,-126.327 -45.662,-165.685c-30.441,-39.358 -73.989,-59.037 -130.643,-59.037c-54.963,0 -97.665,19.679 -128.106,59.037c-30.441,39.358 -45.662,94.586 -45.662,165.685l-0,308.516l350.073,-0l-0,-308.516Zm49.281,361.839c-224.303,0 -451.358,0 -451.358,0l0,-363.109c0,-87.18 19.238,-155.104 57.712,-203.773c38.474,-48.668 92.38,-73.002 161.718,-73.002c54.963,-0 100.202,15.023 135.716,45.071c35.515,30.047 64.032,72.156 74.179,126.326" style="fill:#231f20;"/>
+                <path d="M1265.13,1448.19c0,-71.099 15.221,-126.327 45.662,-165.685c30.441,-39.358 73.989,-59.037 130.643,-59.037c54.963,0 97.665,19.679 128.106,59.037c30.441,39.358 45.662,94.586 45.662,165.685l-0,308.516l-350.073,-0l0,-308.516Zm-49.281,361.839c224.303,0 451.357,0 451.357,0l0,-363.109c0,-87.18 -19.237,-155.104 -57.711,-203.773c-38.474,-48.668 -92.38,-73.002 -161.718,-73.002c-54.963,-0 -100.202,15.023 -135.717,45.071c-35.514,30.047 -63.083,72.156 -73.23,126.326" style="fill:#231f20;"/>
+            </g>
+        </svg>
+</td>
+</tr>
+<tr>
+<td class="body">
+<table width="100%"  align="center" cellpadding="0" cellspacing="0">
+<tr>
+<td align="center" style="padding: 0 15px 0 15px; font-size: 22px; color: #111;">
+<h3 style="font-weight: 400; margin-top: 20px; margin-bottom: 5px;">Send Files</h3>
+</td>
+</tr>
+<tr>
+<td align="center" style="padding-bottom: 10px;">
+<div style="width: 85px; height: 2px; background: #111; margin-top: 2px;"></div>
+<div style="width: 85px; height: 50px;"></div>
+  <!-- button -->
+  <button class="primarybutton" id="open">pick files</button></h5>
+  <!-- button -->
+</td>
+</tr>
+<tr>
+<td style="padding: 20px 15px 0 15px;">
+    <div class="parent">
+        <div class="div1" style="text-align: center;"><span class="label-note">!</span> &nbsp; Label each file with your order reference</div>
+        <div class="div2" style="text-align: right; border-right: #eee 1px solid; padding-right: 20px; padding-top: 20px; padding-bottom: 20px;">Only PDF files are accepted</div>
+        <div class="div3" style="text-align: left; padding-left: 10px; padding-top: 20px; padding-bottom: 20px;">Maximum upload limit: 50 MB</div>
+        </div>
+</td>
+</tr>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+
+
+<tr>
+<td>
+<table width="100%"  align="center" cellpadding="0" cellspacing="0">
+<tr>
+<td style="padding: 0x 0px 0px 0px;" align="center">
+
+    <table width="100%" border="0" cellpadding="0" cellspacing="0">
+        <tbody>
+        <tr>
+            <td colspan="2"><img src="images/6.jpg" style="width: 100%;"></td>
+        </tr>
+        
+        
+        <tr>
+        <td colspan="2"></td>
+        </tr>
+
+        </tbody></table>
+        
+<table width="100%" align="center" cellpadding="0" cellspacing="0">
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<script src="//static.filestackapi.com/filestack-js/3.x.x/filestack.min.js"></script>
+<script src="filepicker.js"></script>
+<!--[if (gte mso 9)|(IE)]>
+</td>
+</tr>
+</table>
+<![endif]-->
+</body>
+</html>
