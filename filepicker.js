@@ -17,7 +17,7 @@ var options ={
 		"maxFiles": 4,
 		"minFiles": 1,
 		"uploadInBackground": false,
-		"maxSize": 1024*1024*50
+		"maxSize": 50*1024*1024
 };
 
 const picker = client.picker(options); 
