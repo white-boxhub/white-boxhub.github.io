@@ -8,6 +8,7 @@ var options ={
 
 	"accept": [
 		".pdf",
+		"image/jpeg"
 
 	],
 	"fromSources": [
@@ -17,7 +18,7 @@ var options ={
 		"maxFiles": 4,
 		"minFiles": 1,
 		"uploadInBackground": false,
-		"maxSize": 50*1024*1024
+		"maxSize": 50
 };
 
 const picker = client.picker(options); 
