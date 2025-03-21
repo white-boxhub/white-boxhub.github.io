@@ -13,14 +13,11 @@ var options ={
 	"fromSources": [
 		"local_file_system"
 	],
-		"disableTransformer": true,
+		"disableTransformer": false,
 		"maxFiles": 4,
 		"minFiles": 1,
 		"uploadInBackground": false,
 		"maxSize": 1024 * 1024 * 50
-	],
-	"transformations": {
-        crop: true,
     }
 };
 
